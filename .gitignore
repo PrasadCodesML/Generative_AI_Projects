@@ -1,0 +1,55 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore API keys and sensitive files
+.env
+*.key
+*.json
+*.pem
+config.yaml
+secrets.yml
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.pid
+*.gz
+
+# Ignore dataset and model files
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+
+# Ignore large media files (optional)
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+
+# Ignore Hugging Face token files
+huggingface/
+
+# Ignore VS Code and IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore Git history rewrites (if you need to remove sensitive data)
+.git-rewrite/
